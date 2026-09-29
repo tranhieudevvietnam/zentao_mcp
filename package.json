@@ -23,7 +23,8 @@
     "start": "node build/index.js",
     "dev": "tsc --watch",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
-    "test:api": "tsx tests/testApi.ts"
+    "test:api": "tsx tests/testApi.ts",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.1.0",
